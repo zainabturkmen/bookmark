@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @media screen(lg) {
   .bg-hero {
     width: 2000px;
@@ -23,7 +28,6 @@
     brightness(101%) contrast(96%);
 }
 
-/* HAMBURGER MENU */
 
 .hamburger {
   cursor: pointer;
@@ -76,4 +80,4 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background-color: #fff;
-}
+} */
