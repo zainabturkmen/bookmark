@@ -496,8 +496,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-2 {
+  left: 0.5rem;
 }
 
 .z-30 {
@@ -870,6 +890,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-1 {
+    width: 0.25rem;
   }
 
   .lg\:flex-row {
