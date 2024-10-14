@@ -16,6 +16,7 @@ function onTabClick(e) {
   });
 
   // Hide all panels
+  panels.forEach((panel) => panel.classList.remove )
 }
 
 // const tabs = document.querySelectorAll('.tab')
