@@ -1,7 +1,7 @@
 
 
 const tabs = document.querySelectorAll(".tab");
-const panel = document.querySelectorAll(".panel");
+const panels = document.querySelectorAll(".panel");
 
 console.log(tabs[0]);
 
