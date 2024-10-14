@@ -12,17 +12,19 @@ function onTabClick(e) {
       "border-softRed",
       "border-b-4",
       "md:border-b-0"
-    )
+    );
   });
 
   // Hide all panels
-  panels.forEach((panel) => panel.classList.add("hidden"))
+  panels.forEach((panel) => panel.classList.add("hidden"));
 
   // Activate a new tab and panel based on the target
-  e.target.classList.add("border-softRed", "border-b-4")
-  const classString = e.target.getAttribute("data-target")
-  document.getElementById("panels").getElementsByClassName(classString)[0]
-  console.log(classString);
+  e.target.classList.add("border-softRed", "border-b-4");
+  const classString = e.target.getAttribute("data-target");
+  document
+    .getElementById("panels")
+    .getElementsByClassName(classString)[0].classList.remove("hidden")
+
 }
 
 // const tabs = document.querySelectorAll('.tab')
