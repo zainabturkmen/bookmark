@@ -6,6 +6,7 @@ const panels = document.querySelectorAll(".panel");
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick));
 
 function onTabClick(e) {
+  // Deactivate all tabs
   tabs.forEach((tab) => {
     tab.children[0].classList.remove(
       "border-softRed",
