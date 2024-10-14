@@ -2,7 +2,7 @@
 
 const tabs = document.querySelectorAll(".tab")
 
-console.log(tabs);
+console.log(tabs[0]);
 
 
 
