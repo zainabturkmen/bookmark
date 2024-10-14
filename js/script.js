@@ -1,8 +1,8 @@
 
 
-const tab = document.querySelectorAll(".tab")
+const tabs = document.querySelectorAll(".tab")
 
-console.log(tab);
+console.log(tabs);
 
 
 
