@@ -3,8 +3,11 @@
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 
-console.log(tabs[0]);
+// Tabs menu event listener
 
+tabs.forEach((tab) => {
+  
+})
 
 
 
