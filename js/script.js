@@ -16,7 +16,7 @@ function onTabClick(e) {
   });
 
   // Hide all panels
-  panels.forEach((panel) => panel.classList.remove )
+  panels.forEach((panel) => panel.classList.add(""))
 }
 
 // const tabs = document.querySelectorAll('.tab')
