@@ -7,8 +7,8 @@ const panels = document.querySelectorAll(".panel");
 
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick))
 
-function onTabClick() {
-  console.log(123);
+function onTabClick(e) {
+  console.log(e.target);
 }
 
 
