@@ -14,6 +14,8 @@ function onTabClick(e) {
       "md:border-b-0"
     )
   });
+
+  // Hide all panels
 }
 
 // const tabs = document.querySelectorAll('.tab')
