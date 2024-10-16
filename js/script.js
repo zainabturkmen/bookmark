@@ -8,6 +8,8 @@ const logo = document.getElementById("logo");
 
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick));
 
+// Hamburger button listener
+
 function onTabClick(e) {
   // Deactivate all tabs
   tabs.forEach((tab) => {
