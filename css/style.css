@@ -1176,6 +1176,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: inline-flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-1\/3 {
     width: 33.333333%;
   }
