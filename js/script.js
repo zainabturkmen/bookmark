@@ -34,7 +34,9 @@ function onTabClick(e) {
 }
 
 function navToggle() {
-  btn.classList.toogle("open");
+  btn.classList.toggle("open");
+  menu.classList.toggle("flex");
+  menu.classList.toggle("hidden");
 }
 
 // const tabs = document.querySelectorAll('.tab')
