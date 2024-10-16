@@ -1006,32 +1006,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     brightness(101%) contrast(96%);
 }
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@media screen(lg) {
-  .bg-hero {
-    width: 2000px;
-    height: 300px;
-    left: 30%;
-    @apply absolute rounded-l-full top-52 bg-softBlue;
-  }
-
-  .bg-tabs {
-    width: 2000px;
-    height: 300px;
-    right: 60%;
-    @apply absolute rounded-r-full top-60 bg-softBlue;
-  }
-}
-
-.ficon:hover {
-  filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
-    brightness(101%) contrast(96%);
-}
-
-
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -1043,7 +1017,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-  content: '';
+  content: "";
   position: absolute;
   width: 24px;
   height: 3px;
@@ -1083,7 +1057,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background-color: #fff;
-} */
+}
 
 .hover\:border-2:hover {
   border-width: 2px;
