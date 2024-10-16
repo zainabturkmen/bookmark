@@ -9,6 +9,7 @@ const logo = document.getElementById("logo");
 tabs.forEach((tab) => tab.addEventListener("click", onTabClick));
 
 // Hamburger button listener
+btn.addEventListener("click", navToggle);
 
 function onTabClick(e) {
   // Deactivate all tabs
@@ -28,8 +29,12 @@ function onTabClick(e) {
   const classString = e.target.getAttribute("data-target");
   document
     .getElementById("panels")
-    .getElementsByClassName(classString)[0].classList.remove("hidden")
+    .getElementsByClassName(classString)[0]
+    .classList.remove("hidden");
+}
 
+function navToggle() {
+  btn.classList.toogle("open");
 }
 
 // const tabs = document.querySelectorAll('.tab')
