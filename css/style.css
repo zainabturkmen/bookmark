@@ -1105,6 +1105,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: #fff;
 }
 
+.hidden {
+  display: none;
+}
+
 .hover\:border-2:hover {
   border-width: 2px;
 }
