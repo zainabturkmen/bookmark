@@ -50,7 +50,8 @@ function navToggle() {
 
 menuLinks.forEach((link) => {
   link.addEventListener("click", () => {
-    menu.classList.add("hidden");
-    menu.classList.remove("flex");
+    // menu.classList.add("hidden");
+    // menu.classList.remove("flex");
+    document.body.classList.remove("")
   });
 });
